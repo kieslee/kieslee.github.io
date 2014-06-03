@@ -1,0 +1,12 @@
+# Site settings
+title: "kieslee's blog"
+username: "kieslee"
+email: "lleelm@gmail.com"
+url: "http://kieslee。github.io"
+
+# Build settings
+# markdown: kramdown
+markdown: redcarpet
+# pygments: true
+highlighter: pygments
+permalink: pretty
