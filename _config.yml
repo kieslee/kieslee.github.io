@@ -3,7 +3,7 @@ title: "kieslee's blog"
 username: "kieslee"
 email: "lleelm@gmail.com"
 uri: "http://kieslee.github.io"
-baseurl: "http://kieslee.github.io/"
+baseurl: "http://kieslee.github.io"
 
 # Build settings
 # markdown: kramdown
