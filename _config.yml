@@ -2,7 +2,8 @@
 title: "kieslee's blog"
 username: "kieslee"
 email: "lleelm@gmail.com"
-uri: "http://kieslee.github.io"
+url: "http://kieslee.github.io"
+#url: "http://127.0.0.1:4000"
 baseurl: "http://kieslee.github.io"
 
 # Build settings
