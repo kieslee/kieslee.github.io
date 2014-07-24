@@ -5,7 +5,7 @@ title:  "openstack与docker结合"
 
 一、前提
 
-最近在学习docker[docker][docker]，在单机上运行docker工作的很好。偶然有一天想到docker能够跟openstack结合在一起运行，把docker当做一种nova里面的driver，就像nova和kvm那样工作。
+最近在学习[docker][docker]，在单机上运行docker工作的很好。偶然有一天想到docker能够跟openstack结合在一起运行，把docker当做一种nova里面的driver，就像nova和kvm那样工作。
 
 二、前期准备
 
