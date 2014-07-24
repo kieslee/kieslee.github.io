@@ -62,7 +62,7 @@ openstack（或者说是virtual machine)的镜像的理念与docker的理念是�
 但是由于镜像的问题，我觉得现阶段除非对openstack进行改造，包括nova和glance，否则openstack和docker的结合是不合适的。
 
 
-[docker]:https://www.docker.
+[docker]:https://www.docker.com
 [dockerwiki]:https://wiki.openstack.org/wiki/Docker
 [stackforge_docker]:https://github.com/stackforge/nova-docker
 [docker-registry]:https://github.com/dotcloud/docker-registry
