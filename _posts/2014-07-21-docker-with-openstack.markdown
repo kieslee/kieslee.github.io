@@ -27,6 +27,7 @@ title:  "openstack与docker结合"
   ln: CommandFilter, ln, root
   ```
 
+
 2. 镜像
 
   剩下的所有的坑，都是跟镜像有关。所以我们可以先看一下docker的镜像与openstack的镜像的区别。
@@ -38,6 +39,19 @@ title:  "openstack与docker结合"
   ![镜像结构图]({{ site.url }}/assets/image.jpg)
 
   在一个repository中，可以存放很多image，打不同的tag。
+
+  让openstack支持docker的镜像还是比较容易的，安装[docker-registry][docker-registry],使用glance的store，就可以完成向glance存储和请求镜像的要求。
+
+
+
+3. 生成snapshot
+
+  开始的时候，用nova生成镜像，每次都是生成public的，让人很是不解。后来经过分析发现，这个问题是两个地方导致的。
+
+  首先，是docker的bug。我用的docker是0.8.1版本。
+
+  其次，docker-registry中，没有查询所有的image，只查询自己tenant的image。
+
 
 四、结论
 
@@ -51,3 +65,4 @@ openstack（或者说是virtual machine)的镜像的理念与docker的理念是�
 [docker]:https://www.docker.
 [dockerwiki]:https://wiki.openstack.org/wiki/Docker
 [stackforge_docker]:https://github.com/stackforge/nova-docker
+[docker-registry]:https://github.com/dotcloud/docker-registry
