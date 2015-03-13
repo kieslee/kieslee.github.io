@@ -2,10 +2,10 @@
 title: "kieslee's blog"
 username: "kieslee"
 email: "lleelm@gmail.com"
-url: "http://kieslee.github.io"
-baseurl: "http://kieslee.github.io"
-#url: "http://127.0.0.1:4000"
-#baseurl: ""
+#url: "http://kieslee.github.io"
+#baseurl: "http://kieslee.github.io"
+url: "http://127.0.0.1:4000"
+baseurl: ""
 
 # Build settings
 # markdown: kramdown
